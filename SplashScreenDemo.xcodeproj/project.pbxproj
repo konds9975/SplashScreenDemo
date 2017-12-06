@@ -15,6 +15,9 @@
 		FF0FFD0D1FD84B53002537F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FFD0C1FD84B53002537F7 /* main.m */; };
 		FF0FFD171FD84B53002537F7 /* SplashScreenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FFD161FD84B53002537F7 /* SplashScreenDemoTests.m */; };
 		FF0FFD221FD84B53002537F7 /* SplashScreenDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FFD211FD84B53002537F7 /* SplashScreenDemoUITests.m */; };
+		FF0FFD341FD85483002537F7 /* YLProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FFD331FD85483002537F7 /* YLProgressBar.m */; };
+		FF0FFD361FD85B7F002537F7 /* FM_LaunchImagePortrait_768x1004.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0FFD351FD85B7F002537F7 /* FM_LaunchImagePortrait_768x1004.png */; };
+		FF0FFD391FD85C3A002537F7 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FFD381FD85C3A002537F7 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		FF0FFD1D1FD84B53002537F7 /* SplashScreenDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashScreenDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0FFD211FD84B53002537F7 /* SplashScreenDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenDemoUITests.m; sourceTree = "<group>"; };
 		FF0FFD231FD84B53002537F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0FFD321FD85483002537F7 /* YLProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLProgressBar.h; sourceTree = "<group>"; };
+		FF0FFD331FD85483002537F7 /* YLProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLProgressBar.m; sourceTree = "<group>"; };
+		FF0FFD351FD85B7F002537F7 /* FM_LaunchImagePortrait_768x1004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FM_LaunchImagePortrait_768x1004.png; sourceTree = "<group>"; };
+		FF0FFD371FD85C39002537F7 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		FF0FFD381FD85C3A002537F7 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,15 @@
 		FF0FFCFC1FD84B53002537F7 /* SplashScreenDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FF0FFD351FD85B7F002537F7 /* FM_LaunchImagePortrait_768x1004.png */,
+				FF0FFD321FD85483002537F7 /* YLProgressBar.h */,
+				FF0FFD331FD85483002537F7 /* YLProgressBar.m */,
 				FF0FFCFD1FD84B53002537F7 /* AppDelegate.h */,
 				FF0FFCFE1FD84B53002537F7 /* AppDelegate.m */,
 				FF0FFD001FD84B53002537F7 /* ViewController.h */,
 				FF0FFD011FD84B53002537F7 /* ViewController.m */,
+				FF0FFD371FD85C39002537F7 /* ViewController2.h */,
+				FF0FFD381FD85C3A002537F7 /* ViewController2.m */,
 				FF0FFD031FD84B53002537F7 /* Main.storyboard */,
 				FF0FFD061FD84B53002537F7 /* Assets.xcassets */,
 				FF0FFD081FD84B53002537F7 /* LaunchScreen.storyboard */,
@@ -238,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0FFD361FD85B7F002537F7 /* FM_LaunchImagePortrait_768x1004.png in Resources */,
 				FF0FFD0A1FD84B53002537F7 /* LaunchScreen.storyboard in Resources */,
 				FF0FFD071FD84B53002537F7 /* Assets.xcassets in Resources */,
 				FF0FFD051FD84B53002537F7 /* Main.storyboard in Resources */,
@@ -266,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF0FFD021FD84B53002537F7 /* ViewController.m in Sources */,
+				FF0FFD341FD85483002537F7 /* YLProgressBar.m in Sources */,
+				FF0FFD391FD85C3A002537F7 /* ViewController2.m in Sources */,
 				FF0FFD0D1FD84B53002537F7 /* main.m in Sources */,
 				FF0FFCFF1FD84B53002537F7 /* AppDelegate.m in Sources */,
 			);
